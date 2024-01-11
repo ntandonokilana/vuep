@@ -18,16 +18,24 @@ export default {
 }
 </script>
 <style>
+    nav {
+            background-color:limegreen;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+    }
+
     .Contact-form {
-            background-color: #fff;
+            background-color: rgb(0, 129, 0);
             width: 50%;
             margin: 20px auto;
             padding: 20px;
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            box-shadow: black;
     }
      h1 {
         text-align: center;
+        color: black;
     }
 
     form {
@@ -37,6 +45,7 @@ export default {
 
     label {
             font-weight: bold;
+            color: black;
     }
     input {
             margin: 10px 0;
@@ -50,20 +59,22 @@ export default {
     }
 
     button {
-            background-color: #333;
+         background-color: rgb(25, 201, 25);
             color: #fff;
-            padding: 10px 20px;
+            padding: 10px; 
             border: none;
             border-radius: 5px;
             cursor: pointer;
-    }
+            margin: 50px;
+            display: block; 
+}
 
     button:hover {
-            background-color: #555;
+            background-color: rgb(38, 139, 38);
     }
 
     p {
             text-align: center;
-            font-style: italic;
+            font-style: bold;
     }
 </style>
