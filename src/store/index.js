@@ -4,12 +4,23 @@
           {
               "projects":[
                   {
-                      "name":"Netflix",
-                      "github":"",
-                      "vercel":""
+                      "name":"Abantu Reads",
+                      "github":"https://github.com/ntandonokilana/AbantuReads2.git",
+                      "vercel":"https://abantu-reads2.vercel.app/"
+                  },
+                  {
+                    "name":"Calculator",
+                    "github":"https://github.com/ntandonokilana/Calculator.git",
+                    "vercel":"https://calculator-beta-umber.vercel.app/"
+                  },
+                  {
+                    "name":"To-do list",
+                    "github":"https://github.com/ntandonokilana/do-to-list.git",
+                    "vercel":"https://do-to-list-five.vercel.app/"
                   },
                   {},
-                  {}
+                  {},
+                  {},
               ]
           },
           {
@@ -47,7 +58,7 @@
                   },
                   {
                       "skills":[
-                          "HTML","CSS","addlinkstoimages"
+                          "HTML","CSS","addlinkstoimages", "Bootsrap", "JavaScript", "Vue.js"
                       ]
                   },
                   {

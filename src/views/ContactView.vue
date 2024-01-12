@@ -1,7 +1,7 @@
 <template lang="">
      <div class="Contact-form">
         <h1>Contact Me!</h1>
-        <form>
+        <form action="https://formspree.io/f/xeqyoegr" method="POST">
             <label for="email">Full Name</label>
             <input type="fullname" id="fullname" name="fullname" placeholder="Your Full Name" required>
             <label for="email">Email Address:</label>
