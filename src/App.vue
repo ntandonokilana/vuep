@@ -7,10 +7,14 @@
 <script>
 import Navbar from './components/Navigation.vue'
 import Footer from './components/Footer.vue'
+import Spinner from './components/Spinner.vue'
 export default{
   components:{
     Navbar,
-    Footer
+    Footer,
+    Spinner,
+  },mounted() {
+    this.$store.dispatch('fetchData');
   }
 }
 </script>

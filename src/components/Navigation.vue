@@ -16,5 +16,10 @@ export default {
 }
 </script>
 <style>
-    
+    nav {
+               background-color:limegreen;
+               color: #fff;
+               text-align: center;
+               padding: 10px;
+       }
 </style>

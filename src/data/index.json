@@ -1,0 +1,141 @@
+{
+    "data":
+        [
+            {
+                "projects":[
+                    {
+                        "name":"Abantu Reads",
+                        "img":"https://i.ibb.co/2KZqTsX/young-student-working-assignment.jpg",
+                        "github":"https://github.com/ntandonokilana/AbantuReads2.git",
+                        "vercel":"https://abantu-reads2.vercel.app/"
+                    },
+                    {
+                       "name":"Calculator",
+                       "img":"https://i.ibb.co/fDMQJ3F/Screenshot-2024-01-12-153137.png",
+                       "github":"https://github.com/ntandonokilana/Calculator.git",
+                       "vercel":"https://calculator-beta-umber.vercel.app/"
+                    },
+                    {
+                        "name":"To-do list",
+                        "img":"https://i.ibb.co/JrxHggN/Screenshot-2024-01-12-152810.png",
+                        "github":"https://github.com/ntandonokilana/do-to-list.git",
+                        "vercel":"https://do-to-list-five.vercel.app/"
+                    },
+                    {
+                        "name":"Age to Days",
+                        "img":"https://i.ibb.co/fdnFsTr/Screenshot-2024-01-12-152629.png",
+                        "github":"https://github.com/ntandonokilana/AgeToDays.git",
+                        "vercel":"https://age-to-days-one.vercel.app/"
+                    },
+                    {
+                        "name":"Numbers Operations",
+                        "img":"https://i.ibb.co/5BdsDf0/Screenshot-2024-01-12-153759.png",
+                        "github":"https://github.com/ntandonokilana/minMax.git",
+                        "vercel":"https://min-max-swart.vercel.app/"
+                    },
+                    {
+                      "name":"Minutes to Seconds",
+                      "img":"https://i.ibb.co/m4xJNSR/Screenshot-2024-01-12-152406.png",
+                      "github":"https://github.com/ntandonokilana/MinToSec.git",
+                      "vercel":"https://min-sec-converter.vercel.app/"
+                    }
+                ]
+            },
+            {
+                "testimonials":[
+                    {
+                        "name":"Naeema Omar",
+                        "description":"Ntando is a determined and magnetic person, she holds herself and her work in high standard and therefore influences others to do the same. Her personality lights up a room and she makes others feel comfortable.",
+                        "job":"Web Developer",
+                        "url":"https://i.ibb.co/qkFvf4s/image-4.png"
+                    },
+                    {
+                        "name":"Tyeishah Johnson",
+                        "description":"Ntando is a determined and magnetic person, she holds herself and her work in high standard and therefore influences others to do the same. Her personality lights up a room and she makes others feel comfortable.",
+                        "job":"Colleague",
+                        "url":"https://i.ibb.co/FY4FZQk/20231009-134048.jpg"
+                    },
+                    {
+                        "name":"Thandeka Sineli",
+                        "description":"I'm grateful for Ntando, my colleague, who consistently checks in on me. Her kindness and support create a positive and friendly work environment. Ntando's genuine care for the team goes beyond work, inspiring us to collaborate effectively. I feel fortunate to have her as a colleague, and her kindness has significantly impacted my experience at work.",
+                        "job":"Colleague/Web Developer",
+                        "url":"https://i.ibb.co/55WZjC8/Thandeka-jpeg.jpg"
+                    },
+                    {
+                        "name":"Heather Mtuedwa",
+                        "description":"I've had the pleasure of working with Ntando as both a colleague and friend, and she's truly exceptional. Ntando's work ethic is unmatched—she tackles every project with unwavering dedication, regardless of its complexity. As a friend, she's not only caring and honest but also remarkably dependable. Ntando consistently goes above and beyond, always ready to offer support whenever someone is in need. Her combination of professionalism and genuine kindness makes her an invaluable asset in both the workplace and personal relationships.",
+                        "job":"Web Developer/Colleague",
+                        "url":"https://i.ibb.co/qkqCGPy/PHOTO-2024-01-11-16-06-14.jpg"
+                    },
+                    {
+                        "namme":"Asithandile Tyulu",
+                        "description":"Nontando is an exceptionally dedicated colleague, known for her infectious and inspiring unwavering work ethic. Her commitment to excellence is not only evident in her consistent performance but also in her openness to feedback and continuous improvement. Nontando's unique blend of reflection and introspection not only sets her apart but also fosters a collaborative work environment where growth and excellence thrive.",
+                        "job":"Colleague/Web Developer",
+                        "url":"https://i.ibb.co/R7B8D5v/902b8eb6-1894-42c6-92ae-74b2fdb4fc4e-removebg-preview.png"
+                    },
+                    {
+                        "name":"Matthew Brown",
+                        "description":" Ntando impresses with her exceptional kindness and unwavering work ethic. Even in challenging situations, she maintains composure and tackles tasks with a motivated spirit. Her determination is evident as she consistently strives to surpass the goals she sets for herself, making her a truly admirable individual.",
+                        "job":"Life Choices Lecturer",
+                        "url":"https://i.ibb.co/tL8WL8k/Matthew.png"
+                    }
+
+                ]
+            },
+            {
+                "resume":[
+                    {
+                        "education":[
+                            {
+                                "name":"Rhodes High School",
+                                "year":2017
+                            },
+                            {
+                              "name":"CityVarsity:School of Media & Creative Arts",
+                              "course":"Diploma in Film & Television Production Techniques",
+                              "year":"2019 - 2020"
+                            },
+                            {
+                              "name":"Life Choices Coding Academy",
+                              "course":"Fullstack Web Development Bootcamp",
+                              "year":"2023 - 2024"
+                            }
+                        ]
+                    },
+                    {
+                        "skills":[
+                            "HTML","CSS","addlinkstoimages", "Bootsrap", "JavaScript", "Vue.js"
+                        ]
+                    },
+                    {
+                        "workExp":[
+                            {
+                                "name":"TooMuchWiFi",
+                                "duties":"Customer service & Sales",
+                                "year": "2019 6 months"
+                            },
+                            {
+                                "name":"Takealot",
+                                "duties":"Customer Service agent",
+                                "year": "2020 2 months"
+                            },
+                            {
+                              "name":"Mr D Food",
+                              "duties":"Customer Service agent",
+                              "year":"2021-2022 1 year, 8 Months"
+                            },
+                            {
+                              "name":"EXL",
+                              "duties": "Customer Service Advisor",
+                              "year":"2023 8 months"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+  }
+  
+  
+  
+  
