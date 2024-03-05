@@ -12,27 +12,17 @@
         </form>
     </div>
 </template>
-<script>
-export default {
-    
-}
-</script>
-<style>
-    nav {
-            background-color:limegreen;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
-    }
 
+<style>
     .Contact-form {
-            background-color: rgb(0, 129, 0);
-            width: 50%;
-            margin: 20px auto;
+            background-color: rgb(0, 95, 129);
+            width: 40%;
+            margin: 50px auto;
             padding: 20px;
             border-radius: 10px;
             box-shadow: black;
     }
+    
      h1 {
         text-align: center;
         color: black;
@@ -48,33 +38,33 @@ export default {
             color: black;
     }
     input {
-            margin: 10px 0;
+            margin: 10px ;
             padding: 10px;
             border: 1px solid #ccc;
             border-radius: 5px;
+        
     }
     textarea {
             height: 100px;
             resize: vertical; 
+            margin: 10px ;
     }
 
     button {
-         background-color: rgb(25, 201, 25);
+            background-color: rgb(34, 162, 205);
             color: #fff;
             padding: 10px; 
             border: none;
-            border-radius: 5px;
-            cursor: pointer;
+            border-radius: 10px;
             margin: 50px;
-            display: block; 
 }
 
     button:hover {
-            background-color: rgb(38, 139, 38);
+            background-color: rgb(32, 102, 137);
     }
 
-    p {
+    /* p {
             text-align: center;
             font-style: bold;
-    }
+    } */
 </style>

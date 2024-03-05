@@ -7,33 +7,25 @@
 <script>
 import Navbar from './components/Navigation.vue'
 import Footer from './components/Footer.vue'
+import Spinner from './components/Spinner'
 export default{
   components:{
     Navbar,
-    Footer
+    Footer,
+    Spinner
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Courier New", Courier, monospace;
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
   text-align: center;
-  color: #2c3e50;
+  height: 500hv; /*adjust the hiegh and size of the pages here to fit all pages*/
+  background-image: url("https://i.ibb.co/vhLZVCz/Premium-Vector-Vector-circle-tech-with-light-blue-and-lamp-bulb-on-technology-background.jpg");
 }
 
-nav {
-  padding: 30px;
-}
 
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
-}
 </style>

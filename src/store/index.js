@@ -90,34 +90,48 @@
       ]
 }
 
+import { createStore } from 'vuex';
 
+const store = createStore({
+  state: {
+    projects: [],
+    testimonials: [],
+    contact: [],
+    resume: [],
+  },
+  mutations: {
+    setProjects(state, projects) {
+      state.projects = projects;
+    },
+    setTestimonials(state, testimonials) {
+      state.testimonials = testimonials;
+    },
+    setContact(state, contact) {
+      state.contact = contact;
+    },
+    setResume(state, resume) {
+      state.resume = resume;
+    },
+  },
+  actions: {
+    fetchProjects({ commit }) {
+      // Simulating fetching projects from an API
+      const projectsData = require('./index.js').data.find(item => item.projects);
+      commit('setProjects', projectsData ? projectsData.projects : []);
+    },
+    fetchTestimonials({ commit }) {
+      // Simulating fetching testimonials from an API
+      const testimonialsData = require('./index').data.find(item => item.testimonial);
+      commit('setTestimonials', testimonialsData ? testimonialsData.testimonial : []);
+    },
+    // Implement other actions for fetching contact and resume if needed
+  },
+  getters: {
+    projects: state => state.projects,
+    testimonials: state => state.testimonials,
+    // Implement getters for contact and resume if needed
+  },
+});
 
+export default store;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// import { createStore } from 'vuex'
-
-// export default createStore({
-//   state: {
-//   },
-//   getters: {
-//   },
-//   mutations: {
-//   },
-//   actions: {
-//   },
-//   modules: {
-//   }
-// })

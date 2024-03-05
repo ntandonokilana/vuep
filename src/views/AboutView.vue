@@ -10,7 +10,7 @@
         I aspire to make a mark in the film industry, particularly exploring AI for filmmaking and CGI, integrating cutting-edge
         technologies into my creative journey.
       </p>
-      <img src="https://i.ibb.co/71nftkg/vueIMG.jpg" alt="vueIMG">
+      <img src="https://i.ibb.co/F4xv1vK/nontando.jpg" alt="vueIMG">
     </div>
   </div>
 </template>
@@ -20,15 +20,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 800px;
-    margin: 50px auto;
-    background-color: greenyellow;
+    max-width: 500px;
+    margin: 10px auto;
     padding: 20px;
+    border-radius: 50px;
+    color: white;
   }
 
   h1 {
-    align-self: flex-start;
-    color: rgb(0, 0, 0);
+    color: white;
   }
 
   .content-container {
