@@ -24,7 +24,8 @@ export default{
   -moz-osx-font-smoothing: grayscale; */
   text-align: center;
   height: 500hv; /*adjust the hiegh and size of the pages here to fit all pages*/
-  background-image: url("https://i.ibb.co/vhLZVCz/Premium-Vector-Vector-circle-tech-with-light-blue-and-lamp-bulb-on-technology-background.jpg");
+  /* background-color: #c5955b; */
+  background-color: #3c4c1c;
 }
 
 

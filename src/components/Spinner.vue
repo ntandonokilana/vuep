@@ -1,7 +1,7 @@
 <template>
   <div>
     <div v-if="!loaded" class="loader">
-      <div class="spinner"></div> <!-- Corrected class name -->
+      <div class="spinner"></div> 
     </div>
   </div>
 </template>
@@ -22,7 +22,7 @@ export default {
 </script>
 
 <style>
-.spinner { /* Corrected class name */
+.spinner { 
   width: 40px;
   height: 40px;
   border-radius: 50%;

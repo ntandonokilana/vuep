@@ -10,7 +10,8 @@
         I aspire to make a mark in the film industry, particularly exploring AI for filmmaking and CGI, integrating cutting-edge
         technologies into my creative journey.
       </p>
-      <img src="https://i.ibb.co/F4xv1vK/nontando.jpg" alt="vueIMG">
+      <div><img src="https://i.ibb.co/F4xv1vK/nontando.jpg" alt="vueIMG">
+      </div>      
     </div>
   </div>
 </template>
@@ -47,5 +48,29 @@
     width: 200px;
     height: auto;
     border-radius: 10px;
+  }
+
+  .content-contanier{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      opacity: 0;
+      animation-name: slide-in;
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+      color: aliceblue;
+      background: rgba(0, 0, 0, 0.5);
+      border-radius: 10px;
+  }
+    @keyframes slide-in {
+      0% {
+        transform: translateX(-50%);
+        opacity: 0;
+      }
+      100% {
+        transform: translateX(0);
+        opacity: 1;
+      }
   }
 </style>
